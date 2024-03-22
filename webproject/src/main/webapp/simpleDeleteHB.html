@@ -1,0 +1,57 @@
+<html>
+<head>
+    <style>
+        header {
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:5px;	 
+        }
+        nav {
+            line-height:30px;
+            background-color:#eeeeee;
+            height:300px;
+            width:100px;
+            float:left;
+            padding:5px;	      
+        }
+        section {
+            width:350px;
+            float:left;
+            padding:10px;	 	 
+        }
+        footer {
+            background-color:black;
+            color:white;
+            clear:both;
+            text-align:center;
+            padding:5px;	 	 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Delete Employee</h1>
+    </header>
+
+    <nav>
+        <a href="/webproject/simpleInsertHB.html">Insert Data</a> <br>
+        <a href="/webproject/simpleSearchHB.html">Search Data</a> <br>
+        <a href="SimpleDeleteHB?clear=true">Clear All</a> <br>
+    </nav>
+
+    <section>
+        <h1>Delete Employee by ID</h1>
+        
+        <form action="SimpleDeleteHB" method="POST">
+            Employee ID: <input type="text" name="id"> <br />
+            <input type="submit" value="Delete" />
+        </form>
+    </section>
+
+    <footer>
+        Copyright
+    </footer>
+</body>
+</html>
